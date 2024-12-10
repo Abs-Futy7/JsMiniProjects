@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+input:focus-visible {
+    outline: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 249, 206);
+    height: 100vh;
+}
+.box{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 20%);
+}
+.box h1{
+    font-size: 30px;
+    font-style: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px dashed grey;
+}
+#pass-box {
+    width: 100%;
+    display: block;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 18px;
+}
+label {
+    user-select: none;
+}
+#btn {
+    width: 100%;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: #34495e;
+    color: white;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+#btn:hover{
+    background-color: #2a3b4b;
+}
